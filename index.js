@@ -12,7 +12,7 @@ function dealCards(side) {
 }
 
 const win = 'You win!';
-const loose = 'You loose!';
+const lose = 'You lose!';
 
 function checkScore() {
   // if player has 21, they win
@@ -20,12 +20,12 @@ function checkScore() {
     alert(win);
     return;
   }
-  // if player is bust, they loose
+  // if player is bust, they lose
   if (playerHand > 21) {
-    alert(loose);
+    alert(lose);
     return;
   }
-  // if dealer has 21, they loose
+  // if dealer has 21, they lose
   if (dealerHand === 21) {
     alert('Dealer wins!');
     return;
@@ -50,13 +50,13 @@ function blackJack() {
   }
   // check that player has 21
   if (playerHand > 21) {
-    alert(loose);
+    alert(lose);
     // if not, continue with dealer
   } else if (playerHand <= 21) {
     while (dealerHand < 17) {
       dealerHand = dealCards(dealerHand);
     }
-    // dealer has 17-21 and player has less than dealer, they loose
+    // dealer has 17-21 and player has less than dealer, they lose
     if (dealerHand >= 17 && dealerHand <= 21 && playerHand < dealerHand) {
       alert('Dealer wins!');
       return;
@@ -70,7 +70,7 @@ function blackJack() {
       alert(win);
       return;
     } else {
-      alert(loose);
+      alert(lose);
       return;
     }
   }
