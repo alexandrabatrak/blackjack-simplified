@@ -2,7 +2,7 @@
 
 ## Blackjack Game
 
-In this mini-project you will work with a partner to complete a simple blackjack game.
+In this mini-project create a simple blackjack game.
 
 ## Instructions
 
