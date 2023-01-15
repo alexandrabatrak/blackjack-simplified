@@ -36,4 +36,6 @@ In this mini-project create a simple blackjack game.
 
 - Create functions if you begin to repeat yourself.
 
+[![Image of github-profile-views-counter](https://github.com/alexandrabatrak/github-profile-views-counter/blob/master/svg/587856184/badge.svg)](https://github.com/alexandrabatrak/github-profile-views-counter/blob/master/readme/587856184/week.md)
+
 Copyright © Alexandra Batrak 2023
